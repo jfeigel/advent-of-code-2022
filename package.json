@@ -1,9 +1,9 @@
 {
-  "name": "advent-of-code-template",
+  "name": "advent-of-code-2022",
   "version": "1.0.0",
-  "description": "Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels.",
-  "repository": "https://github.com/bbush915/advent-of-code-template.git",
-  "author": "Bryan Bush <bushb@umich.edu>",
+  "description": "Advent calendar of small programming puzzles for a variety of skill sets and skill levels.",
+  "repository": "https://github.com/jfeigel/advent-of-code-2022.git",
+  "author": "James Feigel <james.feigel@gmail.com>",
   "private": "true",
   "scripts": {
     "generate:day": "ts-node ./scripts/generate-day.ts",
@@ -21,6 +21,7 @@
     "command-line-args": "^5.2.1",
     "dotenv": "^16.0.3",
     "jest": "^29.3.1",
+    "prettier": "^2.8.1",
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.3"
